@@ -19,7 +19,7 @@ function certifications() {
                 />
             </div>
             
-            <div className='bg-navyBlue lg:px-[100px] md:px-[60px] px-[30px] mt-[40px] mt-auto h-full'>
+            <div className='bg-navyBlue lg:px-[100px] md:px-[60px] px-[30px] mt-auto h-full'>
                 <Footer />
             </div>
         </div>
