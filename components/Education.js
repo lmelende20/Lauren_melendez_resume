@@ -7,6 +7,12 @@ function Education() {
             <div className='w-screen bg-whitePink py-[20px] lg:mt-[30px] md:mt-[20px] mt-[10px]'>
                 <h1 className='lg:text-[35px] md:text-[30px] text-[25px] px-[20px] font-Lora font-bold'>Education</h1>
             </div>
+            <DropDown label="College">
+                <p className='font-Nunito font-bold lg:text-[20px] md:text-[17.5px] text-[15px] mb-[20px]'>Graduating May 2022</p>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mb-[40px]'>I am currently attending Stevens Institute of Technlogy in Hoboken, NJ.
+                                    I am working towards obtaining a Bachelors of Science degree, with a major in 
+                                    Computer Science and a minor in Visual Arts and Technology.</p>
+            </DropDown>
             <DropDown label="High School">
                 <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px]  mb-[40px]'>I attended Howell High School from the years 2014-2018. 
                                     I was involved in TSA, varsity soccer, track and field, 
@@ -15,13 +21,8 @@ function Education() {
                                     awarded the 2018 Dr. Martin Luther King Jr. Memorial Scholarship
                                     from the Educational and Cultural Fund of Local Union Number 3.</p>
             </DropDown>
-            <DropDown label="College">
-                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mb-[40px]'>I am currently attending Stevens Institute of Technlogy in Hoboken, NJ.
-                                    I am working towards obtaining a Bachelors of Science degree, with a major in 
-                                    Computer Science and a minor in Visual Arts and Technology. I am on target 
-                                    to graduate in May 2022.</p>
-            </DropDown>
-            <DropDown label="Outside Education">
+            
+            <DropDown label="Other">
                 <ul className=' mb-[40px]'>
                     <li>
                         <h3 className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px]'>LinkedIn Learning</h3>

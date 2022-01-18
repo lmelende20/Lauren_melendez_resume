@@ -64,6 +64,7 @@ function ProjectsPast() {
                     This Figma is a result of following a tutorial on Youtube that taught the basic functions and abilities of Figma. 
                 </p>
             </DropDown>
+            
         </div>
     )
 }
