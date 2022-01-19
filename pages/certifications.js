@@ -16,14 +16,14 @@ function certifications() {
                     picture={`/Images/CertificateOfCompletion_Learning React1024_1.jpg`}
                     title={'Learning React.js'}
                     subtitle={'From LinkedIn Learning'}
-                    link={'/Images/CertificateOfCompletion_Learning React.js.pdf'}
+                    link={'https://www.linkedin.com/learning/certificates/d2ae1720a2ab7d697b8a146dfdbc69e35895e675508629a2ce34bf1b67785cd3?trk=share_certificate'}
                 />
                 
                 <Card 
                     picture={`/Images/CertificateOfCompletion_Figma for UX Design1024_1.jpg`}
                     title={'Figma for UX Design'}
                     subtitle={'From LinkedIn Learning'}
-                    link={'/Images/CertificateOfCompletion_Figma for UX Design.pdf'}
+                    link={'https://www.linkedin.com/learning/certificates/a6aa12c095244b4056cb25c46786006f8a30995c4cefbd4b696aadb116d88754?trk=share_certificate'}
                 /> 
             </div>
             
