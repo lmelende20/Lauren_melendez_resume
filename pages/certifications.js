@@ -10,7 +10,7 @@ function certifications() {
                 <Navbar />
             </div>
 
-            <div className='grid grid-cols-3 lg:px-[100px] md:px-[60px] px-[30px] mt-[40px]'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 items-center lg:px-[100px] md:px-[60px] px-[30px] mt-[40px] whitespace-nowrap'>
                 
                 <Card 
                     picture={`/Images/CertificateOfCompletion_Learning React1024_1.jpg`}
