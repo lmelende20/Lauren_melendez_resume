@@ -14,8 +14,8 @@ function projects() {
             </div>
             
             <div className='flex w-screen bg-whitePink py-[20px] mt-[10px] lg:px-[100px] md:px-[60px] px-[30px]'>
-                <button className={`font-Lora lg:text-[40px] md:text-[30px] text-[20px] ${onPast ? 'font-bold' : 'font-regular'} pr-[40px]`} onClick={() => setOnPast(true)}>Completed</button>
-                <button className={`font-Lora lg:text-[40px] md:text-[30px] text-[20px] ${onPast ? 'font-regular' : 'font-bold'}`} onClick={() => setOnPast(false)}>In Progress</button>
+                <button className={`font-Lora lg:text-[40px] md:text-[30px] text-[20px] hover:text-maroonRed ${onPast ? 'font-bold' : 'font-regular'} pr-[40px]`} onClick={() => setOnPast(true)}>Completed</button>
+                <button className={`font-Lora lg:text-[40px] md:text-[30px] text-[20px] hover:text-maroonRed ${onPast ? 'font-regular' : 'font-bold'}`} onClick={() => setOnPast(false)}>In Progress</button>
             </div>
             <div>
             {onPast ? <ProjectsPast/> : <ProjectsInProgress/>}
