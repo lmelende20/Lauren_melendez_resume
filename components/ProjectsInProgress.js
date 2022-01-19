@@ -45,15 +45,17 @@ function ProjectsInProgress() {
                 <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mb-[40px]'>
                     In order to practice using Figma and better my design skills, I worked an a Figma design for the website. 
                     This made the process of creating the layout and design for the website much easier, so that when I started coding 
-                    it, I always knew how I wanted everything to look. I will continue to update and better this design as I gain more work 
-                    experience. 
+                    it, I already knew how I wanted everything to look. I will continue to update and better this design as I gain more work 
+                    experience and practice. 
                 </p>
             </DropDown>
             <DropDown label="Resume Website">
                 <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mb-[40px]'>
-                    I worked on this resume site as a way to show off my potential frontend development and to better my skills. The process of 
+                    I worked on this resume site as a way to show off my frontend development potential and to better my skills. The process of 
                     coding this site was made easier because of the Figma design I made prior. This site utilizes React, Next.js, and Tailwind css. 
-                    I will continue to update and better this site as I gain more work experience. 
+                    I will continue to update and better this site as I gain more work experience. This project allowed me to utilize my frontend development, 
+                    my UI/UX, and my graphic design skills. I used my frontend development abiliies to code the site, my UI/UX skills allowed me to make a detailed Figma design, 
+                    and my graphic design skills assisgted me in making myself a logo and the graphic in the hero section.
                 </p>
             </DropDown>
         </div>
