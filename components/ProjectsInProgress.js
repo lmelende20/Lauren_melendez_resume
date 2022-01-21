@@ -5,7 +5,7 @@ function ProjectsInProgress() {
     return (
         <div>
             <DropDown label="Mynt">
-                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px]'>
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
                     <a target="_blank" href='https://mynt-five.vercel.app' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
                         View Website
                     </a>
@@ -37,7 +37,7 @@ function ProjectsInProgress() {
                 </p>
             </DropDown>
             <DropDown label="Resume Website Figma">
-                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px]'>
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
                     <a target="_blank" href='https://www.figma.com/file/xKq1zfs6arebkGes4UiZCo/Untitled?node-id=40%3A557' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
                         View Figma
                     </a>
@@ -50,6 +50,11 @@ function ProjectsInProgress() {
                 </p>
             </DropDown>
             <DropDown label="Resume Website">
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
+                    <a target="_blank" href='https://lauren-melendez-resume.vercel.app/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                        View Website
+                    </a>
+                </button>
                 <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mb-[40px]'>
                     I worked on this resume site as a way to show off my frontend development potential and to better my skills. The process of 
                     coding this site was made easier because of the Figma design I made prior. This site utilizes React, Next.js, and Tailwind css. 

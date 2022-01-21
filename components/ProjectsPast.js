@@ -5,7 +5,7 @@ function ProjectsPast() {
     return (
         <div>
             <DropDown label="U-Connect">
-                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px]'>
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
                     <a target="_blank" href='https://staging.uconnect.link/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
                         View Website
                     </a>
@@ -55,7 +55,7 @@ function ProjectsPast() {
                 </p>
             </DropDown>
             <DropDown label="Figma Crash Course Tutorial">
-                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px]'>
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
                     <a target="_blank" href='https://www.figma.com/file/gdvGhJGCtrLcuO12ay7XtA/Untitled?node-id=0%3A1'  className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
                         View Figma
                     </a>

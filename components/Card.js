@@ -20,7 +20,7 @@ function Card({picture, title, subtitle, link}) {
                         View PDF
                     </a>
                 </button>*/}
-                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] font-Nunito text-white lg:text-[15px] text-[13px]'  onClick={() => window.open(link, '_blank')}>
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed hover:bg-buttonHover lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] font-Nunito text-white lg:text-[15px] text-[13px]'  onClick={() => window.open(link, '_blank')}>
                     View Certificate
                 </button>
             </div>
