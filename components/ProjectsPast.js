@@ -31,6 +31,22 @@ function ProjectsPast() {
                     We decided to utilize the Material UI library for our frontend.
                 </p>
             </DropDown>
+            <DropDown label="Figma Redesign of U-Connect">
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
+                    <a target="_blank" href='https://www.figma.com/file/bmal33PIXYY9vnU4lsHBIq/U-Connect?node-id=0%3A1'  className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                        View Figma
+                    </a>
+                </button>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mb-[40px]'>
+                    This Figma is a redseign of a project I have already completed. The original design was not ideal and was rushed due to time constraints. The 
+                    original design and was okay for the time being, but needed to be redone. It fell short on delivering aesthetically pleasing visuals for the users and 
+                    providing a thorough and easily navigatable user experience.
+                </p>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mt-[25px]'>
+                    This new design it much more cohesive, enticing, visually appealling, and has a better user experience. 
+                    There is much more thought that went into this color pallette, the data display, user interaction, and the flow of pages.
+                </p>
+            </DropDown>
             <DropDown label="Digital Library">
                 <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mb-[40px]'>
                     This project utilizes the TMDB database to create a platform for users to review and 
