@@ -14,7 +14,10 @@ function projects() {
             </div>
             
             <div className='flex w-screen bg-whitePink py-[20px] mt-[10px] lg:px-[100px] md:px-[60px] px-[30px]'>
-                <button className={`font-Lora lg:text-[40px] md:text-[30px] text-[20px] hover:text-maroonRed ${onFigma ? 'font-bold' : 'font-regular'} pr-[40px]`} onClick={() => setOnFigma(true)}>Programming</button>
+                <button className={`font-Lora lg:text-[40px] md:text-[30px] text-[20px] hover:text-maroonRed ${onFigma ? 'font-bold' : 'font-regular'} lg:pr-[40px] md:pr-[30px] sm:pr-[20px] pr-[10px]`} onClick={() => setOnFigma(true)}>Programming</button>
+                <p className='lg:text-[40px] md:text-[30px] text-[20px] lg:pr-[40px] md:pr-[30px] sm:pr-[20px] pr-[10px] '>
+                    |
+                </p>
                 <button className={`font-Lora lg:text-[40px] md:text-[30px] text-[20px] hover:text-maroonRed ${onFigma ? 'font-regular' : 'font-bold'}`} onClick={() => setOnFigma(false)}>Designs</button>
             </div>
             <div>
