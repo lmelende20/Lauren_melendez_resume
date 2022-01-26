@@ -25,6 +25,12 @@ function certifications() {
                     subtitle={'From LinkedIn Learning'}
                     link={'https://www.linkedin.com/learning/certificates/a6aa12c095244b4056cb25c46786006f8a30995c4cefbd4b696aadb116d88754?trk=share_certificate'}
                 /> 
+                <Card 
+                    picture={`/Images/CertificateOfCompletion_CSS Essential Training1024_1.jpg`}
+                    title={'CSS Essential Training'}
+                    subtitle={'From LinkedIn Learning'}
+                    link={'https://www.linkedin.com/learning/certificates/bc2899be7037b4c84809f292cf6205ff3b6428b7f19e6774dcdad5f93e99f763?trk=share_certificate'}
+                /> 
             </div>
             
             
