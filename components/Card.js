@@ -13,7 +13,8 @@ function Card({picture, title, subtitle, link}) {
                     <Image src={picture} alt='certification' width={200} height={132} className='rounded-[11px]'/>
                 </div>
                 
-                <h2 className='font-Lora md:text-[25px] text-[20px]'>{title}</h2>
+                {title.length < 25 ? <h2 className='font-Lora md:text-[25px] text-[20px]'>{title}</h2> : <h2 className='font-Lora md:text-[20px] text-[15px]'>{title}</h2>}
+                {/*<h2 className='font-Lora md:text-[25px] text-[20px]'>{title}</h2>*/}
                 <h3 className='font-Nunito lg:text-[18px] md:text-[15px] text-[13px]'>{subtitle}</h3>
                 {/*<button className='rounded-[10px] bg-maroonRed h-[40px] w-[120px]'>
                     <a target="_blank" href={link} className='font-Nunito text-white text-[15px]'> 
