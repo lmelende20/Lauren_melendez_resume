@@ -119,6 +119,33 @@ function FigmaDesigns() {
                 I simply followed the tutorial to educate myself and get an idea of what good design looks like.
             </p>
         </DropDown>
+        <DropDown label="Beany Business">
+            <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
+                <a target="_blank" href='https://www.figma.com/file/tyx22oqFqJWYnjSzAd6lAM/Untitled?node-id=0%3A1'  className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                    View Figma
+                </a>
+            </button>
+            <div>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
+                    Status: 
+                </p>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                    In Progress
+                </p>
+            </div>
+            <div>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] mt-[10px] text-[15px] font-bold inline'>
+                    Role: 
+                </p>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                    UI/ UX Designer
+                </p>
+            </div>
+            <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mt-[25px]'>
+                This Figma is an app design for a coffee shop, where customers can log in/ sign up, favorite products, add products to their shopping cart, check out, browse the menu,
+                 and search the menu.
+            </p>
+        </DropDown>
     </div>
   )
     
