@@ -32,6 +32,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>{pageName(router.pathname)} | Lauren Melendez Profile</title>
         <link rel="icon" href="/Images/favicon.png" />
+        <meta property="og:image" content="/Images/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </div>
