@@ -5,7 +5,7 @@ function Education() {
     return (
         <div>
             <div className='w-screen bg-whitePink py-[20px] lg:mt-[30px] md:mt-[20px] mt-[10px]'>
-                <h1 className='lg:text-[35px] md:text-[30px] text-[25px] px-[20px] font-Lora font-bold'>Education</h1>
+                <h1 className='lg:text-[35px] md:text-[30px] text-[25px] pl-[50px] font-Lora font-bold'>Education</h1>
             </div>
             <DropDown label="College">
                 <p className='font-Nunito font-bold lg:text-[20px] md:text-[17.5px] text-[15px] mb-[20px]'>Graduating May 2022</p>

@@ -16,7 +16,7 @@ export default function () {
     return (
         <div className='lg:mt-[60px] md:mt-[50px] mt-[40px]'>
             <div className='w-screen bg-whitePink lg:py-[20px] py-[12px]'>
-                <h1 className='lg:text-[35px] md:text-[30px] text-[25px] px-[10px] font-Lora font-bold'>Skills</h1>
+                <h1 className='lg:text-[35px] md:text-[30px] text-[25px] pl-[50px] font-Lora font-bold'>Skills</h1>
             </div>
             <div className='flex flex-col justify-center items-center lg:mt-[40px] md:mt-[30px] mt-[20px] md:ml-[0] ml-[20px]'>
                 <ul>
