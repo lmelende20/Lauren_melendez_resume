@@ -31,6 +31,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <title>{pageName(router.pathname)} | Lauren Melendez Profile</title>
+        <link rel="icon" href="/Images/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </div>
