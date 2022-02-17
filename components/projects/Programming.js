@@ -6,7 +6,7 @@ function Programming() {
         <div>
             <DropDown label="Resume Website">
                 <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
-                    <a target="_blank" href='https://lauren-melendez-resume.vercel.app/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                    <a target="_blank" rel="noreferrer" href='https://lauren-melendez-resume.vercel.app/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
                         View Website
                     </a>
                 </button>
@@ -29,15 +29,15 @@ function Programming() {
                 
                 <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mt-[25px]'>
                     I worked on this resume site as a way to show off my frontend development potential and to better my skills. The process of 
-                    coding this site was made easier because of the Figma design I made prior. This site utilizes React, Next.js, and Tailwind css. 
+                    coding this site was made easier because of the Figma design I made prior. This site utilizes Next.js and Tailwind CSS. 
                     I will continue to update and better this site as I gain more work experience. This project allowed me to utilize my frontend development, 
                     my UI/UX, and my graphic design skills. I used my frontend development abiliies to code the site, my UI/UX skills allowed me to make a detailed Figma design, 
-                    and my graphic design skills assisgted me in making myself a logo and the graphic in the hero section.
+                    and my graphic design skills assisted me in making myself a logo and the graphic in the hero section.
                 </p>
             </DropDown>
             <DropDown label="U-Connect">
                 <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
-                    <a target="_blank" href='https://staging.uconnect.link/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                    <a target="_blank" rel="noreferrer" href='https://staging.uconnect.link/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
                         View Website
                     </a>
                 </button>
@@ -80,7 +80,7 @@ function Programming() {
             </DropDown>
             <DropDown label="Mynt">
                 <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
-                    <a target="_blank" href='https://mynt-five.vercel.app' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                    <a target="_blank" rel="noreferrer" href='https://mynt-five.vercel.app' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
                         View Website
                     </a>
                 </button>
@@ -126,6 +126,37 @@ function Programming() {
                     
                 </p>
             </DropDown>
+            <DropDown label="Radiant Recipes">
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
+                    <a target="_blank" rel="noreferrer" href='https://radiant-recipes.vercel.app/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                        View Website
+                    </a>
+                </button>
+                <div>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
+                        Status: 
+                    </p>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                        Complete
+                    </p>
+                </div>
+                <div>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] mt-[10px] text-[15px] font-bold inline'>
+                        Role: 
+                    </p>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                        UI/ UX Designer + Web Developer
+                    </p>
+                </div>
+                
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mt-[25px]'>
+                    This is a personal project of mine that utilizes a public API filled with recipes from around the world. I designed this site using Figma 
+                    and developed it using Next.js and Tailwind CSS. This site fetches recipes based on whichever filter the user selects. If the user selectes 
+                    to filter the meals by name, the user can select a letter, and then the site fetches recipes starting with that letter. They can also filter 
+                    the recipes by country, in which the site returns recipes from the selected country. You can also search through the database and the site 
+                    will return recipes based on that search. Users can click on a recipe to learn more about it, and see the listed ingredients and preparations. 
+                </p>
+            </DropDown>
             <DropDown label="Digital Library">
                 <div>
                     <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
@@ -150,7 +181,9 @@ function Programming() {
                     MongoDB on the backend, along with handlebars for templating HTML pages. 
                 </p>
             </DropDown>
-            <DropDown label="TV Maze">
+            
+            {/*
+                <DropDown label="TV Maze">
                 <div>
                     <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
                         Status: 
@@ -197,6 +230,8 @@ function Programming() {
                     about the pokemon. 
                 </p>
             </DropDown>
+            */}
+            
         </div>
     )
 }
