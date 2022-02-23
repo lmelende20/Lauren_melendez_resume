@@ -121,6 +121,34 @@ function FigmaDesigns() {
                 with the site, how I wanted everything to be laid out, and did not need to make any more design choices while coding.
             </p>
         </DropDown>
+        <DropDown label="Learning Lingo">
+            <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
+                <a target="_blank" rel="noreferrer" href='https://www.figma.com/file/XkG6sabLG6k4IJw7GjMFts/LearningLingo?node-id=2%3A2'  className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                    View Figma
+                </a>
+            </button>
+            <div>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
+                    Status: 
+                </p>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                    Complete
+                </p>
+            </div>
+            <div>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] mt-[10px] text-[15px] font-bold inline'>
+                    Role: 
+                </p>
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                    UI/ UX Designer
+                </p>
+            </div>
+            <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mt-[25px]'>
+                This Figma is a design for a landing page for a fake language learning webiste, similar to Duolingo. This project gave me 
+                an opporunity to practice other design styles. I wanted to create a clean yet fun look, so I used brighter colors along with 
+                playful illustrastions to give off that feeling. 
+            </p>
+        </DropDown>
         {/*<DropDown label="Figma Crash Course Tutorial">
             <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
                 <a target="_blank" rel="noreferrer" href='https://www.figma.com/file/gdvGhJGCtrLcuO12ay7XtA/Untitled?node-id=0%3A1'  className='font-Nunito text-white lg:text-[15px] text-[13px]'> 

@@ -157,6 +157,34 @@ function Programming() {
                     will return recipes based on that search. Users can click on a recipe to learn more about it, and see the listed ingredients and preparations. 
                 </p>
             </DropDown>
+            <DropDown label="Learning Lingo">
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
+                    <a target="_blank" rel="noreferrer" href='https://learning-lingo.vercel.app/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                        View Website
+                    </a>
+                </button>
+                <div>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
+                        Status: 
+                    </p>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                        Complete
+                    </p>
+                </div>
+                <div>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] mt-[10px] text-[15px] font-bold inline'>
+                        Role: 
+                    </p>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                        UI/ UX Designer + Web Developer
+                    </p>
+                </div>
+                
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mt-[25px]'>
+                    This is a personal project of mine that helped me practice making a page without using a JavaScript framework. I used static HTML, JavaScript, and SCSS. This project is just 
+                    a landing page for a fake language learning website, similar to Duolingo.
+                </p>
+            </DropDown>
             <DropDown label="Digital Library">
                 <div>
                     <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
