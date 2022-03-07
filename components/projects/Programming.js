@@ -150,7 +150,7 @@ function Programming() {
                 </div>
                 
                 <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mt-[25px]'>
-                    This is a personal project of mine that is aims to improve the design and functionality of a local restaurant&apos;s website. This site was designed in Figma and then developed 
+                    This is a personal project of mine that aims to improve the design and functionality of a local restaurant&apos;s website. This site was designed in Figma and then developed 
                     using Next.js, Tailwind CSS, and Framer Motion. I used Framer Motion for the hero section fade in function and for some of the hover animation. This website is responsive using the built in 
                     Tailwind CSS breakpoints.
                 </p>
