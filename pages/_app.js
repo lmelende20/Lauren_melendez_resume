@@ -7,19 +7,19 @@ function MyApp({ Component, pageProps }) {
 
   function pageName(pathname){
     if (pathname === '/'){
-      return 'Home'
+      return 'Home | '
     }
     else if (pathname === '/aboutme'){
-      return 'About'
+      return 'About | '
     }
     else if (pathname === '/certifications'){
-      return 'Certifications'
+      return 'Certifications | '
     }
     else if (pathname === '/projects'){
-      return 'Projects'
+      return 'Projects | '
     }
     else if (pathname === '/resume'){
-      return 'Resume'
+      return 'Resume | '
     }
     else{
       return ''
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>{pageName(router.pathname)} | Lauren Melendez Profile</title>
+        <title>{pageName(router.pathname)}Lauren Melendez Portfolio</title>
         <link rel="icon" href="/Images/favicon.png" />
         <meta property="og:title" content="Lauren Melendez Personal Website" />
         <meta name="description" content="Learn more about me and my experience as a developer and designer"/>

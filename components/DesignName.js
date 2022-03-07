@@ -3,7 +3,7 @@ import Image from "next/image"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { useRouter } from 'next/router'
 
-function DesignName({img, title, figma, id, imgs}) {
+function DesignName({img, title, figma, id}) {
     const router = useRouter()
   return (
     <div className='flex md:flex-row flex-col items-center justify-between lg:px-[100px] md:px-[60px] px-[30px] hover:bg-dropDownHover cursor-pointer md:py-[20px] py-[40px]' onClick={()=>router.push(`/project/${id}`)}> 

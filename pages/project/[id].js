@@ -32,24 +32,44 @@ function Project() {
                 <Fade duration={2500}>
                     {data[id].imgs.map((img, index) => (
                     <div className="each-fade" key={index}>
-                        <div className="image-container flex justify-center">
-                            <Image src={img} alt={index} width={500} height={350}/>
+                        <div className="image-container flex justify-center flex flex-col items-center">
+                            <Image src={img.im} alt={index} width={500} height={350}/>
+                            <p className='font-Nunito lg:text-[17.5px] md:text-[15px] text-[15px] font-regular inline'>
+                                <span>{img.caption}</span>
+                            </p>
+                            
                         </div>
                     </div>
                     ))}
                 </Fade>
             </div>
-            <div className='flex flex-col justify-center text-center lg:px-[100px] md:px-[60px] px-[30px]'>
+            <div className='flex flex-col justify-center items-center text-center lg:px-[100px] md:px-[60px] px-[30px]'>
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
+                    <a target="_blank" rel="noreferrer" href= {data[id].Figma}  className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                        View Figma
+                    </a>
+                </button>
                 <h1 className='font-Lora lg:text-[40px] md:text-[30px] text-[20px] pb-[20px]'>
                     {data[id].title}
                 </h1>
-                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
-                    Status: {data[id].Status}
-                </p>
-                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] mt-[10px] text-[15px] font-bold inline'>
-                    Role: {data[id].Role}
-                </p>
-                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] pt-[20px]'>
+                <div>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] mt-[10px] text-[15px] font-bold inline'>
+                        Status: 
+                    </p>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                        {data[id].Status}
+                    </p>
+                </div>
+                <div>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] mt-[10px] text-[15px] font-bold inline'>
+                        Role: 
+                    </p>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                        {data[id].Role}
+                    </p>
+                </div>
+
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] pt-[20px] whitespace-pre-wrap'>
                     {data[id].details}
                 </p>
             </div>
