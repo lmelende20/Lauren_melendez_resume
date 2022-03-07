@@ -10,10 +10,10 @@ function DesignName({img, title, figma, id, imgs}) {
             <div className='flex md:flex-row flex-col items-center '>
                 <div>
                     <div className='hidden md:flex'>
-                        <Image src={img} alt='LM homepage' width={300} height={180.09} className='rounded-[11px]'/>
+                        <Image src={img} alt={title} width={300} height={180.09} className='rounded-[11px]'/>
                     </div>
                     <div className='md:hidden'>
-                        <Image src={img} alt='certification' width={200} height={120.06} className='rounded-[11px]'/>
+                        <Image src={img} alt={title} width={200} height={120.06} className='rounded-[11px]'/>
                     </div>
                 </div>
                 <div className='md:pl-[30px] pl-[0px] flex flex-col md:items-start items-center'>

@@ -207,13 +207,7 @@ function FigmaDesigns() {
             </p>
         </DropDown> */}
     
-        <DesignName img="/LMResume/LMhome.svg" title="Resume Website" figma="https://www.figma.com/file/xKq1zfs6arebkGes4UiZCo/Untitled?node-id=40%3A557" id="1"
-        imgs={[
-            "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-            "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-            "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-            "https://images.unsplash.com/photo-1444525873963-75d329ef9e1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-          ]}/>
+        <DesignName img="/LMresume/LMhome.svg" title="Resume Website" figma="https://www.figma.com/file/xKq1zfs6arebkGes4UiZCo/Untitled?node-id=40%3A557" id="1"/>
         <DesignName img="/RR/RR.svg" title="Radiant Recipes" figma="https://www.figma.com/file/uQB0jO5mjdcM2HjcXqLt6P/Radiant-Recipes?node-id=0%3A1" id="2"/>
         <DesignName img="/UConnect/UConnect.svg" title="U-Connect Redesign" figma="https://www.figma.com/file/bmal33PIXYY9vnU4lsHBIq/U-Connect?node-id=0%3A1" id="3"/>
         <DesignName img="/Tosti/Tosti.svg" title="Tosti Redesign Case Study" figma="https://www.figma.com/file/9UH9ckGxDc388AnmXs14dx/Tosti?node-id=0%3A1" id="4"/>
