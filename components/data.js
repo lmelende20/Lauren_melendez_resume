@@ -25,7 +25,7 @@ let data = {
     },
     "4": {
         imgs: ["/Tosti/Tosti.svg", "/Tosti/Home.svg", "/Tosti/AboutUs.svg", "/Tosti/Contact.svg"],
-        title: "Tosti",
+        title: "Tosti Redesign Case Study",
         details: "",
         Status: "Complete",
         Role: "UI/ UX Designer"
