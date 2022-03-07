@@ -5,6 +5,7 @@ import DropDown from '../components/DropDown'
 import { useRouter } from 'next/router'
 import { Marqy } from "marqy";
 import Image from "next/image"
+import {motion, transform} from "framer-motion"
 
 export default function Home() {
   const router = useRouter();
@@ -12,9 +13,9 @@ export default function Home() {
     <div className='overflow-x-hidden bg-lightPink min-h-screen flex flex-col'>
       <div className="flex flex-col h-screen w-screen bg-lightPink lg:px-[100px] md:px-[60px] px-[30px]">
         <Navbar />
-        <div className='h-full'>
+        <motion.div className='h-full' initial={{opacity: 0, y: 5}} animate={{opacity: 1, y: 0}} transition={{ ease: "easeIn", duration: 1 }}>
           <Hero />
-        </div>
+        </motion.div>
       </div>
       <Marqy speed={1} direction='right' className='bg-whitePink'>
         <div className='flex w-screen bg-whitePink py-[20px] justify-around'>

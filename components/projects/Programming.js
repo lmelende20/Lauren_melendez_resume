@@ -126,6 +126,35 @@ function Programming() {
                     
                 </p>
             </DropDown>
+            <DropDown label="Tosti Cafe & Kitchen">
+                <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
+                    <a target="_blank" rel="noreferrer" href='https://tosti.vercel.app/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
+                        View Website
+                    </a>
+                </button>
+                <div>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
+                        Status: 
+                    </p>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                        Complete
+                    </p>
+                </div>
+                <div>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] mt-[10px] text-[15px] font-bold inline'>
+                        Role: 
+                    </p>
+                    <p className='font-Nunito lg:text-[20px] md:text-[17.5px] pl-[15px] text-[15px] font-regular inline'>
+                        UI/ UX Designer + Web Developer
+                    </p>
+                </div>
+                
+                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mt-[25px]'>
+                    This is a personal project of mine that is aims to improve the design and functionality of a local restaurant&apos;s website. This site was designed in Figma and then developed 
+                    using Next.js, Tailwind CSS, and Framer Motion. I used Framer Motion for the hero section fade in function and for some of the hover animation. This website is responsive using the built in 
+                    Tailwind CSS breakpoints.
+                </p>
+            </DropDown>
             <DropDown label="Radiant Recipes">
                 <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
                     <a target="_blank" rel="noreferrer" href='https://radiant-recipes.vercel.app/' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
@@ -185,7 +214,7 @@ function Programming() {
                     a landing page for a fake language learning website, similar to Duolingo.
                 </p>
             </DropDown>
-            <DropDown label="Digital Library">
+            {/* <DropDown label="Digital Library">
                 <div>
                     <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] font-bold inline'>
                         Status: 
@@ -208,7 +237,7 @@ function Programming() {
                     for user friendly browsing through movies. The project was built with Express, and 
                     MongoDB on the backend, along with handlebars for templating HTML pages. 
                 </p>
-            </DropDown>
+            </DropDown> */}
             
             {/*
                 <DropDown label="TV Maze">

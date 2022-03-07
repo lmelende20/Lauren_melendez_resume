@@ -1,10 +1,13 @@
 import React from 'react'
 import DropDown from '../DropDown'
+import Image from "next/image"
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import DesignName from '../DesignName';
 
 function FigmaDesigns() {
   return (
     <div>
-        <DropDown label="Resume Website">
+        {/* <DropDown label="Resume Website">
             <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
                 <a target="_blank" rel="noreferrer" href='https://www.figma.com/file/xKq1zfs6arebkGes4UiZCo/Untitled?node-id=40%3A557' className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
                     View Figma
@@ -89,7 +92,7 @@ function FigmaDesigns() {
             </div>
             <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] mt-[25px]'>
                 This Figma is a landing page design for a made up travel agency. This design utilizes hover and on click prototyping and animation for the 
-                nav bar buttons, the "Start Exploring" button, and the drop down menu.
+                nav bar buttons, the &quot;Start Exploring&quot; button, and the drop down menu.
             </p>
         </DropDown>
         <DropDown label="Radiant Recipes">
@@ -148,7 +151,7 @@ function FigmaDesigns() {
                 an opporunity to practice other design styles. I wanted to create a clean yet fun look, so I used brighter colors along with 
                 playful illustrastions to give off that feeling. 
             </p>
-        </DropDown>
+        </DropDown> */}
         {/*<DropDown label="Figma Crash Course Tutorial">
             <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
                 <a target="_blank" rel="noreferrer" href='https://www.figma.com/file/gdvGhJGCtrLcuO12ay7XtA/Untitled?node-id=0%3A1'  className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
@@ -176,7 +179,7 @@ function FigmaDesigns() {
                 I simply followed the tutorial to educate myself and get an idea of what good design looks like.
             </p>
         </DropDown>*/}
-        <DropDown label="Beany Business">
+        {/* <DropDown label="Beany Business">
             <button className='lg:rounded-[10px] rounded-[8px] bg-maroonRed lg:h-[40px] lg:w-[120px] mb-[20px] h-[40px] w-[100px] hover:bg-buttonHover'>
                 <a target="_blank" rel="noreferrer" href='https://www.figma.com/file/tyx22oqFqJWYnjSzAd6lAM/Untitled?node-id=0%3A1'  className='font-Nunito text-white lg:text-[15px] text-[13px]'> 
                     View Figma
@@ -202,7 +205,20 @@ function FigmaDesigns() {
                 This Figma is an app design for a coffee shop, where customers can log in/ sign up, favorite products, add products to their shopping cart, check out, browse the menu,
                  and search the menu.
             </p>
-        </DropDown>
+        </DropDown> */}
+    
+        <DesignName img="/LMResume/LMhome.svg" title="Resume Website" figma="https://www.figma.com/file/xKq1zfs6arebkGes4UiZCo/Untitled?node-id=40%3A557" id="1"
+        imgs={[
+            "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+            "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
+            "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+            "https://images.unsplash.com/photo-1444525873963-75d329ef9e1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+          ]}/>
+        <DesignName img="/RR/RR.svg" title="Radiant Recipes" figma="https://www.figma.com/file/uQB0jO5mjdcM2HjcXqLt6P/Radiant-Recipes?node-id=0%3A1" id="2"/>
+        <DesignName img="/UConnect/UConnect.svg" title="U-Connect Redesign" figma="https://www.figma.com/file/bmal33PIXYY9vnU4lsHBIq/U-Connect?node-id=0%3A1" id="3"/>
+        <DesignName img="/Tosti/Tosti.svg" title="Tosti Redesign Case Study" figma="https://www.figma.com/file/9UH9ckGxDc388AnmXs14dx/Tosti?node-id=0%3A1" id="4"/>
+        <DesignName img="/BB/BB.svg" title="Beany Business" figma="https://www.figma.com/file/tyx22oqFqJWYnjSzAd6lAM/Untitled?node-id=0%3A1" id="5"/>
+        <DesignName img="/LL/LL.svg" title="Learning Lingo" figma="https://www.figma.com/file/XkG6sabLG6k4IJw7GjMFts/LearningLingo?node-id=2%3A2" id="6"/>
     </div>
   )
     

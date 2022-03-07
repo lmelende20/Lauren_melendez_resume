@@ -36,12 +36,12 @@ function Footer() {
                             </a>
                         </button>
                         <button className='text-[white] hover:text-grayPink mr-[30px]'>
-                            <a target="_blank" href="https://github.com/lmelende20">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/lmelende20">
                                 <GitHubIcon sx={{fontSize:'40px'}}/>
                             </a>
                         </button>
                         <button className='text-[white] hover:text-grayPink'>
-                            <a target="_blank" href='https://www.linkedin.com/in/lauren-melendez-b07351223/'>
+                            <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/lauren-melendez-b07351223/'>
                                 <LinkedInIcon sx={{fontSize:'40px'}}/>
                             </a>
                         </button>
