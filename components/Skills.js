@@ -35,7 +35,7 @@ export default function () {
                     <li>
                         <div className='flex my-[20px]'>
                             <ComputerIcon className='text-[#AB3B61] font-Nunito lg:text-[30px] md:text-[25px] text-[20px] lg:mr-[10px] mr-[5px]'/>
-                            <h3 className='text-[#AB3B61] font-Nunito lg:text-[20px] md:text-[15px] text-[10px]'>Java, Python, C#, C, SQL, Erlang, OCaml, and Groovy</h3>
+                            <h3 className='text-[#AB3B61] font-Nunito lg:text-[20px] md:text-[15px] text-[10px]'>Java, Python, C#, C, SQL</h3>
                         </div>
                     </li>
                     <li>
@@ -47,7 +47,7 @@ export default function () {
                     <li>
                         <div className='flex my-[20px]'>
                             <KeyboardIcon className='text-[#AB3B61] font-Nunito lg:text-[30px] md:text-[25px] text-[20px] lg:mr-[10px] mr-[5px]'/>
-                            <h3 className='text-[#AB3B61] font-Nunito lg:text-[20px] md:text-[15px] text-[10px]'>Functional Programming</h3>
+                            <h3 className='text-[#AB3B61] font-Nunito lg:text-[20px] md:text-[15px] text-[10px]'>React.js, Next.js, Node.js, Framer Motion, Tailwind CSS, Bootstrap</h3>
                         </div>
                     </li>
                     <li>
