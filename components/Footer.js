@@ -32,7 +32,7 @@ function Footer() {
                         <button className='md:ml-[20px] ml-[0px] font-Lora text-[white] hover:text-grayPink' onClick={() => router.push("/resume")}>Resume</button>
                     </div>
 
-                    <div className='flex md:flex-row flex-col md:ml-[0px] ml-[20px]'>
+                    <div className='flex md:flex-row flex-col md:ml-[0px] md:ml-[20px] ml-[10px]'>
                         <button className='text-[white] hover:text-grayPink md:mr-[30px] mr-[0px]'>
                             <a href="mailto:lmmelendez20@gmail.com">
                                 <EmailIcon sx={{fontSize:'40px'}} />
