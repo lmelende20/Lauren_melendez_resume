@@ -34,7 +34,7 @@ function Project() {
                     <div className="each-fade" key={index}>
                         <div className="image-container flex justify-center flex flex-col items-center">
                             <Image src={img.im} alt={index} width={500} height={350}/>
-                            <p className='font-Nunito lg:text-[17.5px] md:text-[15px] text-[15px] font-regular inline'>
+                            <p className='font-Nunito lg:text-[17.5px] md:text-[15px] text-[15px] text-[#9A7E72] font-regular inline'>
                                 <span>{img.caption}</span>
                             </p>
                             
