@@ -206,11 +206,13 @@ function FigmaDesigns() {
                  and search the menu.
             </p>
         </DropDown> */}
+
+        <DesignName img="/Tosti/Tosti.svg" title="Tosti Redesign Case Study" figma="https://www.figma.com/file/9UH9ckGxDc388AnmXs14dx/Tosti?node-id=0%3A1" id="4"/>
     
         <DesignName img="/LMresume/LMhome.svg" title="Resume Website" figma="https://www.figma.com/file/xKq1zfs6arebkGes4UiZCo/Untitled?node-id=40%3A557" id="1"/>
         <DesignName img="/RR/RR.svg" title="Radiant Recipes" figma="https://www.figma.com/file/uQB0jO5mjdcM2HjcXqLt6P/Radiant-Recipes?node-id=0%3A1" id="2"/>
         <DesignName img="/UConnect/UConnect.svg" title="U-Connect Redesign" figma="https://www.figma.com/file/bmal33PIXYY9vnU4lsHBIq/U-Connect?node-id=0%3A1" id="3"/>
-        <DesignName img="/Tosti/Tosti.svg" title="Tosti Redesign Case Study" figma="https://www.figma.com/file/9UH9ckGxDc388AnmXs14dx/Tosti?node-id=0%3A1" id="4"/>
+        
         <DesignName img="/BB/BB.svg" title="Beany Business" figma="https://www.figma.com/file/tyx22oqFqJWYnjSzAd6lAM/Untitled?node-id=0%3A1" id="5"/>
         <DesignName img="/LL/LL.svg" title="Learning Lingo" figma="https://www.figma.com/file/XkG6sabLG6k4IJw7GjMFts/LearningLingo?node-id=2%3A2" id="6"/>
     </div>
