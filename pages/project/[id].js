@@ -69,7 +69,7 @@ function Project() {
                     </p>
                 </div>
 
-                <p className='font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] pt-[20px] whitespace-pre-wrap'>
+                <p className='text-left font-Nunito lg:text-[20px] md:text-[17.5px] text-[15px] pt-[20px] whitespace-pre-wrap'>
                     {data[id].details}
                 </p>
             </div>

@@ -38,7 +38,11 @@ let data = {
             {im:"/RR/ByNameError.svg",
             caption:"Error Message"}],
         title: "Radiant Recipes",
-        details: "In order to practice my UI/ UX design skills and to make the programming process easier, I created this Figma before I started programming the site. I used coolors.co to help me choose a color palette. Once I completed the design, programming was quite simple since I knew I how the user was going to interact with the site, how I wanted everything to be laid out, and did not need to make any more design choices while coding.",
+        details: `
+        In order to practice my UI/ UX design skills and to make the programming process easier, I created this Figma before I started programming the website. Once I completed the design, programming was quite simple since I knew how the user was going to interact with the site, how I wanted everything to be laid out, and did not need to make any more design choices while coding.
+
+        I used coolors.co to help me choose a color palette. I wanted the website to have earthy and natural tones, to create a calming environment for the users. I wanted a clean design, so I decided to use a grid layout for all of the results, and I put a divider between the results and the top “filter” section. I chose the font combination Lora and Nunito because I like the way these serif and sans-serif fonts work together. Lora has a very elegant feel because of the serifs, and Nunito has a softer feel because it is a sans-serif font and its edges are rounded off. Overall, I think the design choices I made successfully portray a clean and neat design, that displays the content in a visually pleasing and calming way.
+        `,
         Status: "Complete",
         Role: "UI/ UX Designer",
         Figma: "https://www.figma.com/file/uQB0jO5mjdcM2HjcXqLt6P/Radiant-Recipes?node-id=0%3A1"
@@ -47,32 +51,62 @@ let data = {
         imgs: [
             {im:"/UConnect/UConnect.svg",
             caption:"Thumbnail"}, 
+            {im:"/UConnect/origLanding.svg",
+            caption:"Original Landing Page"}, 
             {im:"/UConnect/Landing.svg",
-            caption:"Landing"}, 
+            caption:"Redesign Landing Page"}, 
+            {im:"/UConnect/origListing.svg",
+            caption:"Original Listings Page"}, 
             {im:"/UConnect/ListingPage.svg",
-            caption:"Listings Page"}, 
+            caption:"Redesign Listings Page"}, 
+            {im:"/UConnect/origIndivList.svg",
+            caption:"Original Individual Listing Page"}, 
             {im:"/UConnect/IndivListing.svg",
-            caption:"Individual Listing"}, 
+            caption:"Redesign Individual Listing Page"}, 
+            {im:"/UConnect/origMessList.svg",
+            caption:"Original Message List"}, 
             {im:"/UConnect/MessageList.svg",
-            caption:"Message List"}, 
+            caption:"Redesign Message List"}, 
+            {im:"/UConnect/origIndivMess.svg",
+            caption:"Original Individual Message"}, 
             {im:"/UConnect/IndivMessage.svg",
-            caption:"Individual Message"}, 
+            caption:"Redesign Individual Message"}, 
+            {im:"/UConnect/origFaves.svg",
+            caption:"Original Favorite Listings"}, 
             {im:"/UConnect/FavList.svg",
-            caption:"Favorite Listings"}, 
+            caption:"Redesign Favorite Listings"}, 
+            {im:"/UConnect/origAbout.svg",
+            caption:"Original Profile - About"}, 
             {im:"/UConnect/About.svg",
-            caption:"Profile - About"}, 
+            caption:"Redesign Profile - About"}, 
+            {im:"/UConnect/origActive.svg",
+            caption:"Original Profile - Active Listings"}, 
             {im:"/UConnect/ActiveListing.svg",
-            caption:"Profile - Active Listings"}, 
+            caption:"Redesign Profile - Active Listings"}, 
+            {im:"/UConnect/origInactive.svg",
+            caption:"Original Profile - Inactive Listings"}, 
             {im:"/UConnect/InactiveListing.svg",
-            caption:"Profile - Inactive Listings"}, 
+            caption:"Redesign Profile - Inactive Listings"}, 
+            {im:"/UConnect/origAddList.svg",
+            caption:"Original Upload Listing Form"}, 
             {im:"/UConnect/UploadForm.svg",
-            caption:"Upload Listing Form"}, 
+            caption:"Redesign Upload Listing Form"}, 
+            {im:"/UConnect/origEditList.svg",
+            caption:"Original Edit Listing Form"},
             {im:"/UConnect/EditListingForm.svg",
-            caption:"Edit Listing Form"}],
+            caption:"Redesign Edit Listing Form"}],
         title: "UConnect Redesign",
-        details: `This Figma is a redseign of a project I have already completed. The original design was not ideal and was rushed due to time constraints. The original design and was okay for the time being, but needed to be redone. It fell short on delivering aesthetically pleasing visuals for the users and providing a thorough and easily navigatable user experience.
+        details: `
+        This Figma is a redesign of a project I have already completed. The original design was not ideal and was rushed due to time constraints. The original design was adequate for the time being but needed to be redone. It fell short on delivering aesthetically pleasing visuals for the users and providing a thorough and easily navigable user experience.
         
-        This new design it much more cohesive, enticing, visually appealling, and has a better user experience. There is much more thought that went into this color pallette, the data display, user interaction, and the flow of pages.`,
+        This new design is much more cohesive, enticing, visually appealing, and has a better user experience. There is much more thought that went into this color palette, the data display, user interaction, and the flow of pages. While the redesign contains the exact same information as the original design, the way that the data is displayed is more thought out.
+        
+        The page with the starkest change is the landing page. The content is the exact same in the original design and the redesign however the new design has pleasing illustrations that connect to the context. This helps to not only make the page aesthetically pleasing but also helps to spread out the text. The alignment of the text and the spacing are much different as well. In the new design, none of the text stretches across the whole page. It is in much smaller sections which help with readability. The design also uses a new color palette, and the bright orange color is used to reinforce the visual hierarchy of the text. 
+        
+        Another big change with the redesign is the navbar style. All of the icons are of similar circular styles, which helps them to feel cohesive. There is also an added “marketplace” navbar button that brings the user to the listing page, whereas in the original design the navbar uses the “home” button to bring the users back to the listing page. There was no way to get back to the landing page in the original design, but adding the “marketplace” button left the logo button in the navbar to bring users back to the landing page in the redesign. 
+        
+        The rest of the pages are laid out very similarly, the redesign just utilizes the color palette to establish visual hierarchy better, spaces out the content better utilizes better alignment that separates text better, and resizes content so no one element overwhelms the user’s view.
+        `,
         Status: "Complete",
         Role: "UI/ UX Designer",
         Figma: "https://www.figma.com/file/bmal33PIXYY9vnU4lsHBIq/U-Connect?node-id=0%3A1"
@@ -95,7 +129,7 @@ let data = {
             caption:"Redesigned Contact Us"}],
         title: "Tosti Redesign Case Study",
         details: `Original Site: https://tosticafe.com/
-        Redesign: 
+         
         In an attempt to sharpen my design skills and to show off what I am capable of, I took on the task of doing a case study on the website of a local restaurant. The restaurant is called Tosti, and it is a restaurant in Hoboken, NJ. While the restaurant itself is nicely designed and organized, the website had many issues.
         
         One of the the first most shocking issue that occurs sitewide is the large gallery which is at the top of each page. On a mobile device/ smaller screen, the gallery is not too overpowering, however on a desktop screen the images stretch across the whole screen width. They are stretched to the point that the images are pixelated. Another issue with the gallery is that they are the same set of images on each page. Therefore, besides the navbar current page indication, the page itself does not show that the user has changed pages successfully. Especially on my laptop, where the screen size is smaller than many others, the only thing you can see is the gallery, and none of the content under it. So, it is not obvious to a user that they have changed pages.  Another sitewide issue that I noticed was the “to top” button. It functions fine, however, when it is on top of the footer, there is not enough contrast between the blue button and the light blue footer. For someone who has more trouble with color distinction, the button would not be very helpful to them. 
@@ -152,7 +186,11 @@ let data = {
             {im:"/BB/Profile.svg",
             caption:"Profile"}],
         title: "Beany Business",
-        details: "This Figma is an app design for a coffee shop, where customers can log in/ sign up, favorite products, add products to their shopping cart, check out, browse the menu, and search the menu.",
+        details: `
+        This Figma design is for a coffee shop app, where customers can log in/ sign up, favorite products, add products to their shopping cart, check out, browse the menu, and search the menu.
+
+        This design utilizes Figma scroll prototyping and fixed elements when scrolling. I based my color palette on the color of coffee and earthy colors. I wanted the app to have a calming feel, so I used a lot of natural and rounded corners. I decided to put a bottom screen navigation bar because that is the area of the screen that smartphone users interact with the most. 
+        `,
         Status: "Complete",
         Role: "UI/ UX Designer",
         Figma: "https://www.figma.com/file/tyx22oqFqJWYnjSzAd6lAM/Untitled?node-id=0%3A1"
@@ -164,7 +202,8 @@ let data = {
             {im:"/LL/Home.svg",
             caption:"Home"}],
         title: "Learning Lingo",
-        details: "This Figma is a design for a landing page for a fake language learning webiste, similar to Duolingo. This project gave me an opporunity to practice other design styles. I wanted to create a clean yet fun look, so I used brighter colors along with playful illustrastions to give off that feeling.",
+        details: `
+        This Figma is a design for a landing page for a fake language learning website, similar to Duolingo. This project gave me an opportunity to practice other design styles. I wanted to create a clean yet fun look, so I used brighter colors along with playful illustrations to give off that feeling. I divided each section with different background colors to obviously group the content together. `,
         Status: "Complete",
         Role: "UI/ UX Designer",
         Figma: "https://www.figma.com/file/XkG6sabLG6k4IJw7GjMFts/LearningLingo?node-id=2%3A2"
